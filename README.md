@@ -1,4 +1,4 @@
-# BPD - Delay, Reverse Delay, Analog Delay (switch any one)
+# BPD - Delay, Analog Delay, Reverse Delay (switch any one)
 
 -MCU ... Blue Pill STM32F103C8 72MHz
 
