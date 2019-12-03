@@ -1,6 +1,6 @@
 # BPD - Delay, Reverse Delay, Analog Delay
 
-MCU ... Blue Pill STM32F103C8
+-MCU ... Blue Pill STM32F103C8 72Mhz
 
 -Delay ... Delay Time:425ms, fc:10kHz
 
