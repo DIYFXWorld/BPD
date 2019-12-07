@@ -10,9 +10,8 @@
 
 -Power Supply ... DC9V/55mA  
 
-<img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_3.jpg" width=200><img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_4.jpg" width=200>
-<p>
-<img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_6.jpg" width=200><img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_8.jpg" width=200>
+<img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_3.jpg" width=200><img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_4.jpg" width=200>  
+<img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_6.jpg" width=200><img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_8.jpg" width=200>  
 
 See also wiki at top of this page!!!
 
