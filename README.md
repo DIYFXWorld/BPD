@@ -13,5 +13,5 @@
 <img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_3.jpg" width=200><img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_4.jpg" width=200>  
 <img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_6.jpg" width=200><img src="https://github.com/DIYFXWorld/BPD/blob/master/image/photo_8.jpg" width=200>  
 
-See also <a href="https://github.com/DIYFXWorld/BPD/wiki">wiki</a> at top of this page!!!
+<a href="https://github.com/DIYFXWorld/BPD/wiki">See also wiki at top of this page.</a>
 
