@@ -3,11 +3,13 @@
 
 struct Fade_In
 {
-	int	Step;
-	int	Value;
+	int		Step;
+	int		Value;
 
 	Fade_In( int step )
-	: Step( step ), Value( step ) {}
+	: Step( step ), Value( step )
+	{
+	}
 
 	void Start()	{ Value = 0; };
 
@@ -18,8 +20,8 @@ struct Fade_In
 				v = v * Value / Step;
 
 			++Value;
-			if( Value > Step )	Value = Step;
 		}
+
 		return v;
 	};
 };
