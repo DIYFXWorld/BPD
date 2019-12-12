@@ -1,4 +1,4 @@
-# BPD - Delay, Analog Delay, Reverse Delay (switch any one)
+# BPD - FX Pedal Delay, Analog Delay, Reverse Delay (switch any one)
 
 -MCU ... STM32F103C8, System Clock 72MHz, Flash 64k, SRAM 20k, ADC 12bit  
 -Input ... Mono  
