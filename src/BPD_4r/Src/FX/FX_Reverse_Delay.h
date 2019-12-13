@@ -11,7 +11,7 @@
 #include <Mute.h>
 #include <FX_Config.h>
 
-constexpr BQF_Param FX_Reverse_Delay_LPF_Param = BQF_Builder( _FS_ ).LPF( 10000.f, 0.75f );
+constexpr Q15T_BQF_Param FX_Reverse_Delay_LPF_Param = BQF_Builder( _FS_ ).LPF( 10000.f, 0.75f );
 
 struct FX_Reverse_Delay : public FX_Interface
 {

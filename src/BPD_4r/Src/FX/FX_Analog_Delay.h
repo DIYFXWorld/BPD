@@ -9,8 +9,8 @@
 #include <Q15T_BQF.h>
 #include <Delay_Buffer.h>
 
-constexpr BQF_Param FX_Analog_Delay_LPF_Param 	= BQF_Builder( _FS_ ).LPF( 3000.f, 0.75f );
-constexpr BQF_Param FX_Analog_Delay_LPF_1_Param = BQF_Builder( 10000 ).LPF( 1500.f, 1.f );
+constexpr Q15T_BQF_Param FX_Analog_Delay_LPF_Param_0 = BQF_Builder( _FS_  ).LPF( 3000.f, 0.75f );
+constexpr Q15T_BQF_Param FX_Analog_Delay_LPF_Param_1 = BQF_Builder( 10000 ).LPF( 1500.f, 1.f );
 
 struct FX_Analog_Delay : public FX_Interface
 {
@@ -32,9 +32,9 @@ struct FX_Analog_Delay : public FX_Interface
 		Time_Length( 0 ), Feedback( 0 ), Mix_Level( 0 ),
 		Buffer( BUFFER_LENGTH ), Sub_Process( *this )
 	{
-		LPF_Pre 	= FX_Analog_Delay_LPF_Param;
-		LPF_Post	= FX_Analog_Delay_LPF_Param;
-		LPF 			= FX_Analog_Delay_LPF_1_Param;
+		LPF_Pre 	= FX_Analog_Delay_LPF_Param_0;
+		LPF_Post	= FX_Analog_Delay_LPF_Param_0;
+		LPF 			= FX_Analog_Delay_LPF_Param_1;
 	}
 
 	void Destroy() { delete this; }

@@ -4,18 +4,18 @@
 #include	"Q15T.h"
 #include	"BQF.h"
 
-struct Q15T_BQF_Param_B
+struct Q15T_BQF_Param
 {
 	Q15T		b0_a0, b1_a0, b2_a0;
 	Q15T		a1_a0, a2_a0;
 
-	constexpr Q15T_BQF_Param_B():
+	constexpr Q15T_BQF_Param():
 		b0_a0(0), b1_a0(0), b2_a0(0),
 		a1_a0(0), a2_a0(0)
 	{
 	}
 
-	constexpr Q15T_BQF_Param_B( const BQF_Param& v )
+	constexpr Q15T_BQF_Param( const BQF_Param& v )
 	{
 		b0_a0 = Q15T( v.b0 / v.a0 );
 		b1_a0 = Q15T( v.b1 / v.a0 );
@@ -46,7 +46,7 @@ public:
 		*this = v;
 	}
 
-	Q15T_BQF( const Q15T_BQF_Param_B& v ):
+	Q15T_BQF( const Q15T_BQF_Param& v ):
 		in1( 0 ), in2( 0 ), out1( 0 ), out2( 0 )
 	{
 		b0_a0 = v.b0_a0;
