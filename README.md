@@ -4,9 +4,9 @@
 -Input ... Mono  
 -Output ... Mono  
 
--Delay ... Delay Time:425ms, fc:7kHz  
+-Delay ... Delay Time:450ms, fc:7kHz  
 -Analog Delay ... Delay Time:800ms, fc:1.5kHz  
--Reverse Delay ... Delay Time:400ms, fc:7kHz  
+-Reverse Delay ... Delay Time:420ms, fc:7kHz  
 
 -Power Supply ... DC9V/55mA  
 
